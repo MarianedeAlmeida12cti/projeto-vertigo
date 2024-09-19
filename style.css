@@ -123,12 +123,14 @@ main {
     header {
         background: none;
         justify-content: flex-start;
-        padding-inline: 7rem;
+        margin: 2.5rem 7rem 7rem ;
+
+        height: fit-content;
     }
 
     header img {
         width: 10rem;
-        width: 100%;
+
     }
 
     .conteudo {
@@ -137,9 +139,12 @@ main {
 
     .bg-desktop {
         display: block;
+        width: 100%;
     }
 
     main {
-        padding-inline: 7rem;
+        margin-inline: 7rem;
+        max-width: 24rem;
+        padding: 0;
     }
 }
