@@ -101,4 +101,14 @@ main {
     font-size: 1rem;
     color: var(--white);
     font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.login > p {
+    color: var(--gray-600);
+}
+
+.login > p a {
+    font-weight: 700;
+    font-size: 1rem;
 }
