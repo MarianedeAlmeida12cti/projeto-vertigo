@@ -10,6 +10,8 @@
     --gray-800: #1E293B;
     --gray-600: #475569;
     --purple: #7C3AED;
+    --gray-200:  #E2E8F0;
+    --gray-400: #94A3B8;
 
 
 }
@@ -49,15 +51,33 @@ main {
     font-weight: 600;
 }
 
+ .login input {
+        padding: 1rem 0.75rem;
+        border: 1px solid var(--gray-200);
+        border-radius: 0.25rem;
+        color: var(--gray-800);
+ }
+
 .input-box div {
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
+
+}
+.login input::placeholder {
+    color: var(--gray-400);
 }
 
+.login input:hover,
+.login input:focus {
+    outline: 1px solid var(--purple);
+}
 .input-box {
     display: flex;
     flex-direction: column;
+    gap: 0.25rem;
+    margin-bottom: 1rem;
 }
 
 .login a {
